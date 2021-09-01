@@ -26,17 +26,17 @@ $avatar = new Movie ('Avatar','Regista Avatar');
 $avatar->setDurata(2);
 $avatar->location = 'film animazione';
 //var_dump($avatar);
-echo $avatar->titolo . ', ';
-echo $avatar->regista . ', ';
-echo $avatar->location . ', ';
-echo $avatar->durata . '. // ';
+echo $avatar->titolo . ', ' . '<br>';
+echo $avatar->regista . ', '. '<br>';
+echo $avatar->location . ', '. '<br>';
+echo $avatar->durata . '.' . '<hr>';
 
 
 $pinocchio= new Movie ('Pinocchio','Regista Pinocchio');
 $pinocchio->setDurata(1);
 $pinocchio->location = 'fantasilandia';
 //var_dump($pinocchio);
-echo $pinocchio->titolo . ', ';
-echo $pinocchio->regista . ', ';
-echo $pinocchio->location . ', ';
-echo $pinocchio->durata . '.';
+echo $pinocchio->titolo . ',' . '<br>';
+echo $pinocchio->regista . ', ' . '<br>';
+echo $pinocchio->location . ', ' . '<br>';
+echo $pinocchio->durata . '.' . '<hr>';
